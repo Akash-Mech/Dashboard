@@ -1,0 +1,94 @@
+body{
+    font-family: sans-serif;
+    background: #eeeeeee1;
+}
+
+/* navbar */
+.sidebar{
+    height: 100vh;
+    background: linear-gradient(rgba(214, 208, 208, 0.5),rgba(0,0,0,0.9)),url(../background\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bottom-border{
+    border-bottom: 1px solid #eeeeeee1;
+    
+}
+
+.sidebar-link.active {
+    background-color: green;
+    border-radius: 7px;
+    box-shadow: 2px 7px 20px;
+    transition: all .3s ease;
+}
+
+.sidebar-link:hover{
+    background-color: #f66436;
+    transform: translate(-3px);
+}
+
+.search{
+    background: transparent;
+        border: none;
+    border-bottom: 2px solid #999;
+    transition: all .3s ;
+}
+
+.search:focus{
+   
+    box-shadow: none;
+
+}
+
+.search-btn{
+    border-radius: 50%;
+    padding: 10px 15px;
+    transition: all .4s ease-in-out;
+}
+
+.search-btn:hover{
+    background-color: tomato;
+    transform: rotate(10px);
+}
+
+.icon-notify{
+    position: relative;
+}
+
+.icon-notify-link::after{
+    content: " ";
+    position: absolute;
+    top: 4px;
+right: 5px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+.card-common{
+    background-color: gray;
+    box-shadow: 3px 4px 25px;
+    transition: all .4s ease-in;
+}
+
+.card-common:hover{
+    background-color: green;
+    transform: translateX(-1px);
+}
+.card-footer{
+    background-color: honeydew;
+    transition: all .3s ease-out;
+}
+
+.card-footer:hover{
+    background-color: lawngreen;
+    transform: translateY(-1px);
+}
+
+.progress{
+    background: #999;
+}
+
